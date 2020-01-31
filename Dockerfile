@@ -46,10 +46,10 @@ RUN  apt-get -y --fix-broken --no-install-recommends install make \
 # create a volume
 VOLUME /opt/warvox
 
-# copy intrigue code
+# copy warvox code
 COPY . /opt/warvox/
 
-# install intrigue-specific software & config
+# install warvox-specific software & config
 RUN /bin/bash /opt/warvox/setup.sh
 RUN /opt/warvox/bin/adduser admin randompass
 

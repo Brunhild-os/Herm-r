@@ -68,7 +68,7 @@ gem install bundler:2.0.2 --no-document
 rbenv rehash
 
 #####
-##### INTRIGUE SETUP / CONFIGURATION
+##### WARVOX SETUP / CONFIGURATION
 #####
 echo "[+] Installing Gem Dependencies"
 cd $WARVOX_DIR
