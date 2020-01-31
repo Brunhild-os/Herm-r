@@ -30,6 +30,9 @@ RUN  apt-get -y --fix-broken --no-install-recommends install make \
   build-essential \
   libssl-dev \
   libcurl4-openssl-dev \
+  libssl-dev \
+  libreadline-dev \ 
+  zlib1g-dev \
   postgresql \
   postgresql-contrib \
   postgresql-common \
